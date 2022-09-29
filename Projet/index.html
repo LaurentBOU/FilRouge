@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bellonor Joaillier® - Maison de joaillerie</title>
+    <link rel="stylesheet" href="Assets/CSS/reset.css">
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+    <link rel="stylesheet" href="Assets/CSS/styleModal.css">
+    <link rel="icon" class="icon" type="icon" href="Assets/favicon/favicon.ico">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+<body>
+    
+<!----------- Header ----------->
+
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid col-sm-4">
+        <a class="navbar-brand" href="#"><img src="Assets/Logo/Précieuses Mécaniques logo fond 1cm.jpg" alt="navLogo" width="300" height="240" class="navLogo"></a>
+    </div>
+    <div class="row align-items-center text-center pe-5 me-5">
+        <div class="col">
+            <a href="#" class="modal-btn" id="colorNav">La Maison</a>
+        </div>
+        <div class="col">
+            <a href="les_ateliers.html" id="colorNav">Les Ateliers</a>
+        </div>
+        <div class="col">
+            <a href="#" id="colorNav">La Boutique</a>
+        </div>
+        <div class="col">
+            <a href="#" id="colorNav">Connexion</a>
+        </div>
+    </div>
+</nav>
+
+<!----------- Main ----------->
+
+<div class="modal-container-perso">
+
+    <div class="overlay"></div>
+
+        <div class="modal-perso" role="dialog" aria-labelledby="modalTitle" aria-describedby="dialogDesc">
+            <button aria-label="close modal-perso" class="close-modal-perso">X</button>
+            <h1 id="modalTitle">La Maison Bellonor Joaillier®</h1>
+            <ul id="dialogDesc">
+                <li><a href="https://www.bellonorjoaillier.com/">Bellonor Joaillier®</a></li>
+                <li>ou</li>
+                <li>Scannez-moi</li>
+                <li><img src="Assets/QRCode/QRCode-BellonorJoaillerie.jpeg" class="qrCode"></li>
+            </ul>
+        </div>
+    
+</div>
+<div class="welcome">
+    <h1><span>B</span><span>i</span><span>e</span><span>n</span><span>v</span><span>e</span><span>n</span><span>u</span><span>e</span></h1>
+</div>
+
+<div class="super-container">
+<div class="container-first">
+    <ul class="medias">
+        <li class="bulle"><a href="" ><img src="Assets/img/ig-instagram-icon.svg" alt="logo-insta" class="mediaLogo-medias"></a></li>
+        <li class="bulle"><a href="" class="mediaLogo-medias"><img src="Assets/img/linkedin-app-icon.svg" alt="logo-linkedIn" class="mediaLogo-medias"></a></li>
+        <li class="bulle"><a href="" class="mediaLogo-medias"><img src="Assets/img/facebook-app-icon.svg" alt="logo-fb" class="mediaLogo-medias"></a></li>
+        <li class="bulle"><a href="https://wa.me/0777961447?text=Bienvenue%20sur%20le%20WhatsApp%20Bellonor%20&amp;%20Bellonor%20Joaillier®" class="mediaLogo-medias"><img src="Assets/img/wa-whatsapp-icon.svg" alt="logo-wa" class="mediaLogo-medias"></a></li>
+        <li class="bulle"><a href="" class="mediaLogo-medias"><img src="Assets/img/google_plus.png" alt="logo-gplus" class="mediaLogo-medias"></a></li>
+    </ul>
+</div>
+<div id="carouselExampleIndicators" class="carousel slide col-10 align-items-center" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="Assets/img/Bracelet-Or-Precieuses-Mecaniques-1.jpeg" id="img1" class="d-block w-100" style="width: 10px;" alt="img1">
+        </div>
+        <div class="carousel-item">
+            <img src="Assets/img/Bracelet-Precieuses-Mecaniques-Diamants.jpeg" id="img1" class="d-block w-100" style="width: 10px;" alt="img2">
+        </div>
+        <div class="carousel-item">
+            <img src="Assets/img/Bracelet-Tricolor-Precieuses-Mecaniques.jpeg" id="img1" class="d-block w-100" style="width: 10px;" alt="img3">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div> 
+</div>
+<!--------- Footer --------->
+
+<footer>
+    <div class="divFooter">
+        <a href="#">Retour haut de page</a>
+    </div>
+</footer>
+
+<!-- Librairie GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<!-- JS Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<!-- Script JS -->
+<script src="Assets/JS/script.js"></script>
+</body>
+</html>
