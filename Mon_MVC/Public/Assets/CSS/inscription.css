@@ -1,0 +1,92 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  /* background: url(/Assets/img/Esquisse-dessin-bijoux-scaled.jpeg) no-repeat; */
+  background-size: cover;
+  opacity: 0.8;
+  /* display: flex; */
+}
+
+/* Header */
+
+h1 {
+  background-color: silver;
+  padding: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: "Baskerville Old Face", sans-serif;
+  color: #b36700;
+}
+
+/* Main */
+
+fieldset {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+legend {
+  text-transform: uppercase;
+  font-family: "Baskerville Old Face", sans-serif;
+  color: #b36700;
+  font-weight: bold;
+  font-variant: small-caps;
+  padding: 3px;
+}
+em {
+  font-family: "Palatino Linotype", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: red;
+}
+.para01 {
+  font-family: "Palatino Linotype", sans-serif;
+  color: black;
+  margin-left: 3rem;
+}
+label {
+  text-transform: capitalize;
+  font-family: "Palatino Linotype", sans-serif;
+  color: black;
+  text-align: center;
+  padding: 0px 3px;
+  margin: 2px;
+}
+label .inline {
+  display: inline;
+  margin-right: 50px;
+}
+input {
+  text-align: center;
+}
+/* Footer */
+
+.footer1 {
+  text-align: right;
+  padding-right: 2rem;
+  font-family: "Palatino Linotype", sans-serif;
+  color: silver;
+}
+.footer1 a {
+  font-family: "Palatino Linotype", sans-serif;
+  color: silver;
+  text-decoration: none;
+}
+.divFooter {
+  text-align: center;
+}
+.divFooter a {
+  font-family: "Palatino Linotype", sans-serif;
+  font-weight: 600;
+  color: silver;
+  text-decoration: none;
+  /* justify-content: center; */
+  padding: 2rem;
+}
+.copyright p {
+  text-align: center;
+  font-family: "Palatino Linotype", sans-serif;
+  color: silver;
+  font-weight: bold;
+}

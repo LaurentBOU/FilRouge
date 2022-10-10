@@ -1,0 +1,91 @@
+/* # pour id
+. pour class */
+
+/* Color:  white, black, #EBC2A2, #b36700, silver, #f1f1f1, #333 */
+
+body {
+  overflow-x: hidden;
+}
+/* Header */
+
+#colorNav {
+  color: #b36700;
+  text-decoration: none;
+  font-family: "Palatino Linotype", sans-serif;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+/* Main */
+
+.welcome h1 {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 110px;
+  color: #b36700;
+}
+.welcome h1 span {
+  font-family: "Baskerville Old Face", sans-serif;
+}
+.container-first {
+  width: 50%;
+}
+.mediaLogo {
+  position: absolute;
+  background-color: #333;
+  left: 2.9%;
+  top: 4%;
+  width: 250px;
+  height: 200px;
+  cursor: pointer;
+}
+.medias {
+  list-style-type: none;
+  position: absolute;
+  right: 3.3%;
+  top: 75%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container-first .bulle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #b36700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  background: #f1f1f1;
+  cursor: pointer;
+  position: relative;
+}
+.mediaLogo-medias {
+  width: 30px;
+  height: 30px;
+}
+
+/* Footer */
+
+.divFooter {
+  text-align: center;
+}
+.divFooter a {
+  font-family: "Palatino Linotype", sans-serif;
+  font-weight: 600;
+  color: silver;
+  text-decoration: none;
+  padding: 2rem;
+}
+.logoHome{
+  text-align: center;
+}
+.copyright p {
+  text-align: center;
+  font-family: "Palatino Linotype", sans-serif;
+  color: silver;
+  font-weight: bold;
+}
