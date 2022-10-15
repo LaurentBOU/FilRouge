@@ -6,6 +6,7 @@
 body {
   overflow-x: hidden;
 }
+
 /* Header */
 
 #colorNav {
@@ -24,12 +25,17 @@ body {
   font-size: 110px;
   color: #b36700;
 }
+
 .welcome h1 span {
   font-family: "Baskerville Old Face", sans-serif;
+  
+  
 }
+
 .container-first {
   width: 50%;
 }
+
 .mediaLogo {
   position: absolute;
   background-color: #333;
@@ -39,17 +45,19 @@ body {
   height: 200px;
   cursor: pointer;
 }
+
 .medias {
   list-style-type: none;
   position: absolute;
   right: 3.3%;
-  top: 75%;
+  top: 100%;
   transform: translateY(-50%);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
 .container-first .bulle {
   width: 50px;
   height: 50px;
@@ -63,29 +71,41 @@ body {
   cursor: pointer;
   position: relative;
 }
+
 .mediaLogo-medias {
   width: 30px;
   height: 30px;
 }
 
 /* Footer */
-
-.divFooter {
-  text-align: center;
-}
-.divFooter a {
+footer {
+  display: flex;
   font-family: "Palatino Linotype", sans-serif;
   font-weight: 600;
+}
+
+.copyright p {
+  color: silver;
+}
+
+.divFooter a {
   color: silver;
   text-decoration: none;
   padding: 2rem;
 }
-.logoHome{
-  text-align: center;
+
+div.leftContainer {
+  text-align: right;
+  
 }
-.copyright p {
+
+div.midContainer {
   text-align: center;
-  font-family: "Palatino Linotype", sans-serif;
-  color: silver;
-  font-weight: bold;
+  padding: 5rem;
+}
+
+div.rightContainer {
+  text-align: left;
+  padding-right: 1.5rem;
+  margin-top: 15rem;
 }

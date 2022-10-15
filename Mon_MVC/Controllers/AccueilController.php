@@ -4,7 +4,7 @@
 class AccueilController
 {
 
-    public function afficherAccueilview()
+    public function afficherAccueilView()
     {
         $url_logo = "Public/Assets/Logo/Précieuses_Mécaniques.jpg";
         require "Views/accueilView.php";

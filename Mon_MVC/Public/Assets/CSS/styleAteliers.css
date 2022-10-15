@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
 }
+
 /* Header */
 #colorNav {
   color: #b36700;
@@ -9,10 +10,11 @@ body {
   font-weight: 600;
   font-size: x-large;
 }
+
 .navLogo {
   background-color: #b36700;
 
-  /* /* -webkit-mask-image: url(Public/Assets/Logo/Logo-Les-Ateliers-by-Bellonor.svg);
+  /* -webkit-mask-image: url(Public/Assets/Logo/Logo-Les-Ateliers-by-Bellonor.svg);
   mask-image: url(Public/Assets/Logo/Logo-Les-Ateliers-by-Bellonor.svg); */
 }
 
@@ -21,16 +23,3 @@ ateliers-container .buildPage {
 }
 
 /* Footer */
-
-.divFooter {
-  text-align: center;
-}
-
-.divFooter a {
-  font-family: "Palatino Linotype", sans-serif;
-  font-weight: 600;
-  color: silver;
-  text-decoration: none;
-  justify-content: center;
-  padding: 2rem;
-}

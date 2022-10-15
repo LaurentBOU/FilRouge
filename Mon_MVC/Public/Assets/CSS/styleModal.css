@@ -13,7 +13,7 @@ body {
   overflow: hidden;
 }
 .modal-container-perso {
-  /* display: none; */
+  display: none;
   visibility: hidden;
   position: fixed;
   top: 0;

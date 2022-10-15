@@ -2,7 +2,7 @@ body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-  /* background: url(/Assets/img/Esquisse-dessin-bijoux-scaled.jpeg) no-repeat; */
+  background: url(Public/Assets/img/Esquisse-dessin-bijoux-scaled.jpeg) no-repeat;
   background-size: cover;
   opacity: 0.8;
   /* display: flex; */
@@ -10,7 +10,7 @@ body {
 
 /* Header */
 
-h1 {
+.inscriptionForm {
   background-color: silver;
   padding: 2rem;
   text-align: center;
@@ -60,33 +60,4 @@ label .inline {
 input {
   text-align: center;
 }
-/* Footer */
 
-.footer1 {
-  text-align: right;
-  padding-right: 2rem;
-  font-family: "Palatino Linotype", sans-serif;
-  color: silver;
-}
-.footer1 a {
-  font-family: "Palatino Linotype", sans-serif;
-  color: silver;
-  text-decoration: none;
-}
-.divFooter {
-  text-align: center;
-}
-.divFooter a {
-  font-family: "Palatino Linotype", sans-serif;
-  font-weight: 600;
-  color: silver;
-  text-decoration: none;
-  /* justify-content: center; */
-  padding: 2rem;
-}
-.copyright p {
-  text-align: center;
-  font-family: "Palatino Linotype", sans-serif;
-  color: silver;
-  font-weight: bold;
-}

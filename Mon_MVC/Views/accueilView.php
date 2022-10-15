@@ -17,7 +17,7 @@
             <li>ou</li>
             <li>Scannez-moi</li>
             <li>
-                <img src="Public/Assets/QRCode/QRCode-BellonorJoaillerie.jpeg" class="qrCode" />
+                <img src="<?= URL ?>Public/Assets/QRCode/QRCode-BellonorJoaillerie.jpeg" class="qrCode" />
             </li>
         </ul>
     </div>
@@ -32,51 +32,63 @@
     <div class="container-first">
         <ul class="medias">
             <li class="bulle">
-                <a href=""><img src="<?= URL ?>Public/Assets/img/ig-instagram-icon.svg" alt="logo-insta" class="mediaLogo-medias" /></a>
+                <a href="https://www.instagram.com/bellonorjoaillier/"><img src="<?= URL ?>Public/Assets/img/ig-instagram-icon.svg" alt="logo-insta" class="mediaLogo-medias" /></a>
             </li>
             <li class="bulle">
-                <a href="" class="mediaLogo-medias"><img src="<?= URL ?>Public/Assets/img/linkedin-app-icon.svg" alt="logo-linkedIn" class="mediaLogo-medias" /></a>
+                <a href="https://www.linkedin.com/in/bellonorjoaillier/" class="mediaLogo-medias"><img src="<?= URL ?>Public/Assets/img/linkedin-app-icon.svg" alt="logo-linkedIn" class="mediaLogo-medias" /></a>
             </li>
             <li class="bulle">
-                <a href="" class="mediaLogo-medias"><img src="<?= URL ?>Public/Assets/img/facebook-app-icon.svg" alt="logo-fb" class="mediaLogo-medias" /></a>
+                <a href="https://www.facebook.com/bellonorjoaillierofficial/" class="mediaLogo-medias"><img src="<?= URL ?>Public/Assets/img/facebook-app-icon.svg" alt="logo-fb" class="mediaLogo-medias" /></a>
             </li>
             <li class="bulle">
                 <a href="https://wa.me/0777961447?text=Bienvenue%20sur%20le%20WhatsApp%20Bellonor%20&amp;%20Bellonor%20Joaillier®" class="mediaLogo-medias"><img src="<?= URL ?>Public/Assets/img/wa-whatsapp-icon.svg" alt="logo-wa" class="mediaLogo-medias" /></a>
             </li>
             <li class="bulle">
-                <a href="" class="mediaLogo-medias"><img src="<?= URL ?>Public/Assets/img/google_plus.png" alt="logo-gplus" class="mediaLogo-medias" /></a>
+                <a href="https://www.google.com/search?q=bellonor&rlz=1C1VDKB_frFR974FR974&oq=bellonor&aqs=chrome..69i57j46i39i175i199j0i19j69i65j69i60j69i61j69i60j69i65.9765j0j4&sourceid=chrome&ie=UTF-8#lrd=0x12b6b3310966c81d:0x9d82f6ceb955b596,1,,," class="mediaLogo-medias"><img src="<?= URL ?>Public/Assets/img/google_plus.png" alt="logo-gplus" class="mediaLogo-medias" /></a>
             </li>
         </ul>
     </div>
-    <div id="carouselExampleIndicators" class="carousel slide col-10 align-items-center mx-auto" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://picsum.photos/200/300?random=1" id="img1" class="d-block w-50 align-items-center" alt="img1" />
-            </div>
-            <div class="carousel-item">
-                <img src="https://picsum.photos/200/300?random=2" id="img1" class="d-block w-50 align-items-center" alt="img2" />
-            </div>
-            <div class="carousel-item">
-                <img src="https://picsum.photos/200/300?random=3" id="img1" class="d-block w-50 align-items-center" alt="img3" />
+</div>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+        <div class="card">
+            <img src="https://picsum.photos/300/200?random=1" class="card-img-top" alt="img1">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+    </div>
+    <div class="col">
+        <div class="card">
+            <img src="https://picsum.photos/300/200?random=2" class="card-img-top" alt="img2">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <img src="https://picsum.photos/300/200?random=3" class="card-img-top" alt="img3">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <img src="https://picsum.photos/300/200?random=4" class="card-img-top" alt="img4">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+        </div>
     </div>
 </div>
 
 <?php
 $titre = "Page d'accueil";
 $content = ob_get_clean();
-require_once "template.php";
+require_once "Views/template.php";

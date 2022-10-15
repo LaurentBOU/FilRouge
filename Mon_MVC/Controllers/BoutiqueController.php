@@ -3,7 +3,7 @@
 class BoutiqueController
 {
 
-    public function afficherBoutiqueview()
+    public function afficherBoutiqueView()
     {
         $url_logo = "Public/Assets/Logo/Précieuses_Mécaniques.jpg";
         require "Views/boutiqueView.php";

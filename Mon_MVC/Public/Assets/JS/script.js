@@ -1,3 +1,4 @@
+// ........................Modale...............................
 try {
   const modalContainer = document.querySelector(".modal-container-perso");
   const trigger = document.querySelector(".modal-btn");
@@ -21,17 +22,17 @@ try {
   const logo = document.querySelector(".mediaLogo");
   const medias = document.querySelectorAll(".bulle");
 
-window.addEventListener("load", () => {
-  try {
+  window.addEventListener("load", () => {
+    try {
       const TL = gsap.timeline({ paused: true });
-      TL.staggerFrom(titreSpans, 1, { opacity: 0, ease: "power2" }, 0.3)
-        .from(logo, 0.4, { transform: "scale(0)", ease: "power2" }, "-=2")
-        .staggerFrom(medias, 1, { right: -200, ease: "power2" }, 0.3, "-=1");
+      TL.staggerFrom(titreSpans, 1, { opacity: 0, ease: "power2.out" }, 0.3)
+        .from(logo, 0.4, { transform: "scale(0)", ease: "power2.out" }, "-=2")
+        .staggerFrom(medias, 1, { right: -200, ease: "power2.out" }, 0.3, "-=1");
 
       TL.play();
-    } catch (e) {}
-    });
-  } catch (e) {}
+    } catch (e) { }
+  });
+} catch (e) { }
 
 // .................................Connexion........................................
 try {
@@ -50,4 +51,4 @@ try {
     eye.style.display = "block";
     passwordField.type = "password";
   });
-} catch (e) {}
+} catch (e) { }
