@@ -1,23 +1,36 @@
-ateliers-container{
-    /* text-align: center; */
-    width: 200%;
-    height: 200%;
+body {
+  overflow-x: hidden;
+}
+/* Header */
+#colorNav {
+  color: #b36700;
+  text-decoration: none;
+  font-family: "Palatino Linotype", sans-serif;
+  font-weight: 600;
+  font-size: x-large;
+}
+.navLogo {
+  background-color: #b36700;
+
+  -webkit-mask-image: url(/Assets/Logo/Logo-Les-Ateliers-by-Bellonor.svg);
+  mask-image: url(/Assets/Logo/Logo-Les-Ateliers-by-Bellonor.svg);
 }
 
-ateliers-container .buildPage{
-    text-align: center;
-    width: 50px;
-    height: 50px;
+ateliers-container .buildPage {
+  text-align: center;
 }
 
 /* Footer */
 
-div a {
-    
-    font-family: 'Palatino Linotype', sans-serif;
-    font-weight: 600;
-    color: silver;
-    text-decoration: none;
-    text-align: center;
-    
+.divFooter {
+  text-align: center;
+}
+
+.divFooter a {
+  font-family: "Palatino Linotype", sans-serif;
+  font-weight: 600;
+  color: silver;
+  text-decoration: none;
+  justify-content: center;
+  padding: 2rem;
 }
