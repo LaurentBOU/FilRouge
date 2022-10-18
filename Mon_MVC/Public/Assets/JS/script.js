@@ -52,3 +52,34 @@ try {
     passwordField.type = "password";
   });
 } catch (e) { }
+
+// ...............................Mot de passe........................................
+
+const password = document.querySelector("#password");
+const resultatPassword = document.querySelector("#resultatPassword");
+
+password.addEventListener("blur",()=>{
+    var caracChiffre = /\d/;
+    var caracSpeciaux = /[$&@!?#%]/;
+    var error = "";
+    if(password.value.length < 8){
+        error += "<li>trop court</li>";
+    }
+    
+    if(!password.value.match(caracChiffre)){
+        console.log(password.value.match(caracChiffre))
+        error += "<li> doit contenir un chiffre</li>";
+    }
+    if(!password.value.match(caracSpeciaux)){
+        error+="<li> doit contenir un caractère spécial $,&,@ ou ! </li>"
+    }
+
+    if(error !==""){
+        resultatPassword.innerHTML = "Le mot de passe est : <ul>"+error+"</ul>";
+        resultatPassword.style.border = "2px solid red";
+    }
+    else{
+        resultatPassword.innerHTML = "Le mot de passe est valide";
+        resultatPassword.style.border = "2px solid green"
+    }
+});

@@ -12,7 +12,7 @@
 
             <div class="textbox">
                 <i class="fas fa-lock"></i>
-                <input type="password" placeholder="Mot de passe" />
+                <input type="password" id="password" placeholder="Mot de passe" />
                 <div class="password-icon">
                     <i class="fa fa-eye iconeye"></i>
                     <i class="fa fa-eye-slash iconeyeoff"></i>
