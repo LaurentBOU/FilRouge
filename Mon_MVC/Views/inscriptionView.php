@@ -15,6 +15,10 @@
 
         <label for="avatar">Avatar :</label>
         <input type="image" name="avatar" id="avatar" /><img src="..." class="rounded-circle border border-dark" alt="avatar"><br>
+        <div class="mb-3">
+            <label for="formFile" class="form-label"></label>
+            <input class="form-control" type="file" id="formFile">
+        </div>
         <strong>Image en jpg,jpeg,png,svg,webp,gif. Pas plus de 1Mo</strong><br>
 
         <label for="civilite">Civilité<em>*</em> :</label>
@@ -65,7 +69,7 @@
         <input type="text" name="password" id="password" placeholder="Entrez votre mot de passe" required />
 
     </fieldset>
-    <p><input type="submit" value="Soumettre" /></p>
+    <p><input type="submit" value="Soumettre" class="btnInscription" /></p>
 </form>
 
 <?php

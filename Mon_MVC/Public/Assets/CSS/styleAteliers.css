@@ -3,7 +3,7 @@ body {
 }
 
 /* Header */
-#colorNav {
+.colorNav {
   color: #b36700;
   text-decoration: none;
   font-family: "Palatino Linotype", sans-serif;
@@ -12,14 +12,14 @@ body {
 }
 
 .navLogo {
-  background-color: #b36700;
-
-  /* -webkit-mask-image: url(Public/Assets/Logo/Logo-Les-Ateliers-by-Bellonor.svg);
-  mask-image: url(Public/Assets/Logo/Logo-Les-Ateliers-by-Bellonor.svg); */
+  width: 300px;
+  height: 200px;
+  margin-left: 15rem;
 }
 
-ateliers-container .buildPage {
+.ateliers-container iframe {
   text-align: center;
+  width: 560px;
+  height: 315px;
+  margin-top: 5rem;
 }
-
-/* Footer */

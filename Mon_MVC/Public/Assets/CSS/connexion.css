@@ -1,16 +1,13 @@
-*,
-h1
+body
 {
   font-family: "Baskerville Old Face", sans-serif;
-}
-body {
-  margin: 0;
-  padding: 0;
-  background: url(Public/Assets/img/Les-Precieuses-Mecaniques.jpeg) no-repeat;
+  text-align: center;
+  background-image: url("Public/Assets/img/Les-Precieuses-Mecaniques.jpeg") no-repeat;
   background-size: cover;
 }
-.connexionContainer{
-  text-align: center;
+.connexionContainer {
+  margin: 0;
+  padding: 0;
 }
 .login-box {
   width: 280px;

@@ -15,7 +15,8 @@ body {
 .modal-container-perso {
   display: none;
   visibility: hidden;
-  position: fixed;
+  position: absolute; /*fixed;*/
+  left: 0px;
   top: 0;
   width: 100vw;
   height: 100vh;

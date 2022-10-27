@@ -68,10 +68,10 @@ password.addEventListener("blur",()=>{
     
     if(!password.value.match(caracChiffre)){
         console.log(password.value.match(caracChiffre))
-        error += "<li> doit contenir un chiffre</li>";
+        error += "<li> doit contenir au moins un chiffre</li>";
     }
     if(!password.value.match(caracSpeciaux)){
-        error+="<li> doit contenir un caractère spécial $,&,@ ou ! </li>"
+        error+="<li> doit contenir au moins un caractère spécial $,&,@,!,?,# ou % </li>"
     }
 
     if(error !==""){

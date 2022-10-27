@@ -25,7 +25,9 @@ body {
 fieldset {
   margin-bottom: 15px;
   padding: 10px;
+  border: solid black;
 }
+
 legend {
   text-transform: uppercase;
   font-family: "Baskerville Old Face", sans-serif;
@@ -34,17 +36,20 @@ legend {
   font-variant: small-caps;
   padding: 3px;
 }
+
 em {
   font-family: "Palatino Linotype", sans-serif;
   font-weight: bold;
   font-style: normal;
   color: red;
 }
+
 .para01 {
   font-family: "Palatino Linotype", sans-serif;
   color: black;
   margin-left: 3rem;
 }
+
 label {
   text-transform: capitalize;
   font-family: "Palatino Linotype", sans-serif;
@@ -53,11 +58,32 @@ label {
   padding: 0px 3px;
   margin: 2px;
 }
+
 label .inline {
   display: inline;
   margin-right: 50px;
 }
+
 input {
   text-align: center;
 }
 
+#avatar {
+  width: 10rem;
+  height: 10rem;
+}
+
+.btnInscription {
+  margin: 2rem;
+  width: 8rem;
+  height: 3rem;
+  background: silver;
+  color: black;
+  border-radius: 10rem;
+  text-transform: uppercase;
+}
+
+.btnInscription:hover {
+  color: #b36700;
+  border: #b36700 solid;
+}

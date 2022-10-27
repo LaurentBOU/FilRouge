@@ -9,12 +9,22 @@ body {
 
 /* Header */
 
-#colorNav {
+.colorNav {
   color: #b36700;
   text-decoration: none;
   font-family: "Palatino Linotype", sans-serif;
   font-weight: 600;
   font-size: x-large;
+  
+}
+
+.colorNav:hover {
+  color: silver;
+}
+
+.navLogo {
+  width: 300px;
+  height: 200px;
 }
 
 /* Main */
@@ -28,8 +38,6 @@ body {
 
 .welcome h1 span {
   font-family: "Baskerville Old Face", sans-serif;
-  
-  
 }
 
 .container-first {
@@ -76,11 +84,12 @@ body {
   width: 30px;
   height: 30px;
 }
+
 .green {
   box-shadow: 0 0 0px 1000px green inset !important;
 }
 
-.red{
+.red {
   background-color: red;
 }
 
@@ -103,7 +112,9 @@ footer {
 
 div.leftContainer {
   text-align: right;
-  
+  padding-left: 1.5rem;
+  margin-top: 15rem;
+
 }
 
 div.midContainer {

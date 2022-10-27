@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bellonor Joaillier® - Maison de joaillerie</title>
+
     <link rel="stylesheet" href="<?= URL ?>Public/Assets/CSS/reset.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+
     <link rel="stylesheet" href="<?= URL ?>Public/Assets/CSS/style.css" />
     <link rel="stylesheet" href="<?= URL ?>Public/Assets/CSS/styleModal.css" />
     <link rel="stylesheet" href="<?= URL ?>Public/Assets/CSS/styleAteliers.css" />
@@ -14,29 +17,28 @@
     <link rel="stylesheet" href="<?= URL ?>Public/Assets/CSS/inscription.css" />
     <link rel="icon" class="icon" type="icon" href="<?= URL ?>Public/Assets/favicon/favicon.ico" />
     <!-- CSS Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
 
 </head>
 
 <body>
     <!----------- Header ----------->
 
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-light">
         <div class="container-fluid col-sm-6">
             <a class="navbar-brand" href="#"><img src=<?= URL . $url_logo ?> alt="navLogo" class="navLogo img-fluid mx-auto d-block" /></a>
         </div>
-        <div class="row align-items-center d-flex text-center gap-5">
+        <div class="row align-items-center d-flex col-sm-6 text-center gap-5">
             <div class="col">
-                <a href="accueil" class="modal-btn" id="colorNav">La Maison</a>
+                <a href="<?= isset($page) && $page == 'accueil' ? '#' : 'accueil'; ?>" class="modal-btn colorNav"><?= isset($page) && $page == 'accueil' ? 'La Maison' : 'Accueil'; ?></a>
             </div>
             <div class="col">
-                <a href="ateliers" id="colorNav">Les Ateliers</a>
+                <a href="ateliers" class="colorNav">Les Ateliers</a>
             </div>
             <div class="col">
-                <a href="boutique" id="colorNav">La Boutique</a>
+                <a href="boutique" class="colorNav">La Boutique</a>
             </div>
             <div class="col pe-5">
-                <a href="connexion" id="colorNav">Connexion</a>
+                <a href="connexion" class="colorNav">Connexion</a>
             </div>
         </div>
     </nav>
@@ -49,10 +51,20 @@
 
 
     <footer>
-        <div class="leftContainer col-4"></div>
+        <div class="leftContainer col-4">
+            <ul>
+                <li>Garantie</li>
+                <li>Paiement</li>
+                <li>Retour & Echange</li>
+                <li>Joaillier engagé</li>
+            </ul>
+
+        </div>
         <div class="midContainer col-4">
             <div class="copyright" id="copyright">
-                <p>Bellonor & Bellonor Joaillier® <script>document.write(new Date().getFullYear());</script> Tous droits réservés.</p>
+                <p>Bellonor & Bellonor Joaillier® <script>
+                        document.write(new Date().getFullYear());
+                    </script> Tous droits réservés.</p>
                 <!-- le script me sert à afficher l'année en cours -->
             </div>
             <div class="logoHome">
